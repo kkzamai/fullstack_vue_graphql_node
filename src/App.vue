@@ -9,7 +9,7 @@
         <div class="container">
           <div class="row">
               <div class="col-md">
-                <h5>Prefixes <span class="badge badge-info">{{ prefixes.length  }}</span></h5>
+                <h5>Prefixes <span class="badge bg-secondary">{{ prefixes.length  }}</span></h5>
                 <div class="card">
                   <div class="card-body">
                     <ul class="list-group">
@@ -24,7 +24,7 @@
                 </div>
               </div>
               <div class="col-md">
-                <h5>Sufixes <span class="badge badge-info">{{ sufixes.length  }}</span></h5>
+                <h5>Sufixes <span class="badge bg-secondary">{{ sufixes.length  }}</span></h5>
                 <div class="card">
                   <div class="card-body">
                    <ul class="list-group">
@@ -38,7 +38,7 @@
                 </div>
               </div>
               <p></p>
-              <h5>Domains <span class="badge badge-info">{{ domains.length }}</span></h5>
+              <h5>Domains <span class="badge bg-secondary">{{ domains.length }}</span></h5>
               <div class="card">
                 <div class="card-body">
                   <ul class="list-group">
